@@ -1,0 +1,200 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #231f20;
+  background-image:url(./images/bg-intro-desktop.png);
+}
+ul li {
+  display: inline-block;
+  padding-top: 20px;
+}
+nav {
+  height: 30px;
+}
+.header-info {
+  text-align: center;
+}
+ul li a {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  padding-left: 20px;
+  font-size: 20px;
+}
+h2 {
+  color: #8c5172;
+}
+label {
+  color: white;
+}
+.information {
+  display: flex;
+  margin: 150px auto;
+  justify-content: space-between;
+  align-items: center;
+  border: solid white;
+  padding: 30px;
+}
+.img {
+  height: 400px;
+  width: 400px;
+ border:10px solid white ;
+ object-fit: cover;
+  border-radius: 50%;
+ border-right: gray;
+ border-left: gray;
+}
+.information h1 {
+ text-align: justify;
+  color: white;
+width: 500px;
+}
+.info {
+  display: flex;
+  margin: 100px auto;
+  color: white;
+
+}
+.info h2,.message h1,.info h2 {
+  color: white;
+}
+.hobbies {
+  text-align: center;
+ 
+  margin: 100px auto;
+}
+input,
+select {
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  width: 80%;
+  border: 0.5;
+  background-color: black;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: solid white;
+}
+select {
+  background-color: black;
+  color: white;
+  width: 80%;
+}
+textarea {
+  width: 80%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-color: white;
+}
+.submit {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  width: 150px;
+  padding: 5px;
+  margin: 10px;
+}
+.display {
+  width: 100%;
+  margin: 100px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  justify-items: center;
+}
+.contact {
+  width: 700px;
+  text-align: center;
+ 
+}
+.form {
+  border: solid white;
+ width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+}
+.reg {
+  margin: 10px auto;
+  width: 30%;
+  text-align: center;
+  background: #8c5172;
+}
+.message {
+  padding: 30px;
+  width: 50%;
+  position: relative;
+}
+
+.main {
+  width: 400px;
+  margin: 80px auto;
+  border: solid white; 
+  padding: 30px;
+}
+.page {
+  border: solid white;
+  margin: 100px auto;
+  width: 1200px;
+}
+.main h1 {
+  color: white;
+  text-align: center;
+ margin: 30px;
+}
+.log,.log a  {
+color:white ;
+text-align: center;
+}
+
+.register,.register a {
+  color: white;
+}
+.btn {
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+}
+button {
+  width: 40%;
+  margin: 60px;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  color: black;
+  font-size: larger;
+}
+@media (max-width: 700px) {
+  .information {
+    flex-direction: column;
+  }
+  .img {
+    margin: 50px;
+  }
+  .display {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0px;
+  }
+  .page {
+    width: 600px;
+  }
+  .display input{
+    width: 50%;
+  }
+ .display textarea {
+  width: 30%;
+ }
+ .message {
+ margin: auto;
+ }
+ 
+
+}
